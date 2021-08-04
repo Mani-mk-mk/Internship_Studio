@@ -1,0 +1,25 @@
+/* CONTACT CARDS */
+
+.contactCard {
+    width: 75%;
+    margin-bottom: 25px;
+}
+
+.contacts
+{
+    margin-bottom: 5%;
+}
+
+.contactCard .fa-3x {
+    color: black;
+    margin: 15px auto;
+}
+
+.contactCard a,
+.contactCard p {
+    color: black;
+    font-size: 18px;
+    text-decoration: none !important;
+}
+
+/* FORMS */

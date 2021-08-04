@@ -1,0 +1,142 @@
+/* Products page */
+.filterList {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    border: 0.5px solid gainsboro;
+}
+
+.categoryList {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 0.5px solid gainsboro;
+}
+
+input {
+    width: 220px;
+}
+
+.form-group {
+    width: 300px;
+    padding-right: 22px;
+}
+
+.productFilter {
+    border-right: 1px solid gainsboro;
+}
+
+/*Products Column*/
+.dressCard {
+    padding: 0 2.5%;
+}
+
+.col-md-4 {
+    margin: 5% 0;
+}
+
+/*Product View*/
+
+.view {
+    width: 100% !important;
+}
+
+.view img {
+    width: 100%;
+    padding: 5px 20px;
+    border: 0.5px solid gainsboro;
+    box-shadow: 0 0 2px 2px gainsboro;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+}
+
+.lastOne {
+    width: 100% !important;
+}
+
+.imgview {
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.colText {
+    text-align: left;
+}
+
+.shirt {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: grey;
+    color: black;
+}
+
+.shirt a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.shirt a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+
+/*Related PRoducts*/
+
+.relatedRow {
+    margin: 0 auto
+}
+
+.related {
+    width: 31% !important;
+    margin: 0 10px 5% !important;
+    box-shadow: 0 0 2px 2px gainsboro;
+}
+
+.related img {
+    width: 95%;
+    padding: 10px;
+}
+
+.name {
+    text-decoration: none !important;
+    font-size: 18px;
+    padding: 5% 2%;
+}
+
+
+/*Category Styling*/
+
+.categoryImage {
+    padding: 0 8px !important;
+    width: 33% !important;
+}
+
+.categoryContainer h2 {
+    text-decoration: underline;
+}
+
+.singleImage {
+    background-color: gainsboro;
+
+    box-shadow: 0 0 2px 2px gainsboro;
+    border-radius: 15px;
+}
+
+.description a {
+    text-decoration: none !important;
+    font-size: 20px;
+}
+
+.description p {
+    margin-top: 12px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.productImage img {
+    margin-top: 5px;
+    width: 75%;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+/* Headings Montserat and rest Open sans */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.carouselImage {
+    width: 40% !important;
+    margin: 2vh auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+/* Navigation Bar */
+nav {
+    padding: 3% 2%;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem !important;
+}
+
+/*Carousel*/
+.cara-slide {
+    background: linear-gradient(grey, black);
+}
+
+.carousel-image {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+}
+
+/*Category*/
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+    margin: 20px 0 !important;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-img {
+    width: 100% !important;
+    text-align: center;
+    margin: 3% 0;
+}
+
+/*Latest Section*/
+.latest-img {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 3%;
+    box-shadow: 0 0 2px 2px gainsboro;
+}
+
+.latest {
+    margin: 0;
+}
+
+.heading {
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 0 auto;
+    text-align: center;
+}
+
+.styleColumn {
+    margin: 3% 0;
+    margin-left: 10.333px;
+    width: 300px !important;
+    padding: 0 !important;
+}
+
+.categoryRow,
+.latestRow {
+    padding: 0 10%;
+}
+
+.dressName {
+    text-decoration: none !important;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 2px 2px gainsboro;
+}
+
+.latestRow {
+    padding: 0 15%;
+}
+
+/*Our Features*/
+.icons {
+    margin: 15px 41% 15px;
+}
+
+.featuresRow {
+    padding: 10px 6%;
+}
+
+.ourFeatures {
+    width: 450px !important;
+    padding: 10px !important;
+}
+
+.features {
+    background: linear-gradient(grey, black);
+    color: white;
+}
+
+.fa-3x {
+    color: white;
+}
+
+/* Footer Section */
+
+footer {
+    padding: 3% 0 1%;
+}
+
+.listStyle {
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.logo {
+    text-align: left;
+    color: black;
+}
+
+.footerHeading {
+    text-align: left;
+}
+
+.links {
+    text-decoration: none !important;
+    color: grey !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: all;
+}
+
+.links:hover {
+    color: black !important;
+    transition-delay: 0.5s ease-in !important;
+}
+
+.footerColumn {
+    padding-left: 45px !important;
+}
+
+/* .backtop {
+    display: flex;
+    justify-content: center; 
+} */
+
+/* Reviews */
+.fa-star {
+    color: black;
+}
+
+.totop {
+    position: absolute;
+    top: 1450px;
+    right: 15px;
+
+}
+
+.anchor
+{
+    color: white;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
+.search
+{
+    margin-right: 10px;
+}
+
+.fa-shopping-cart
+{
+    color: white;
+}
+
+@media screen and (max-width:568px) {
+    .carouselImage
+    {
+        width: 100% !important
+    }
+
+    .navbar
+    {
+        text-align: left !important;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .navbar-brand
+    {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .navbar-brand
+    {
+        visibility: hidden;
+    }
+}

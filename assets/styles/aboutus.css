@@ -1,0 +1,78 @@
+body
+{
+    font-weight: 700;
+}
+
+
+.imgSection
+{
+    padding: 0 35px 35px !important;
+}
+.imgAboutUs
+{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.textSection
+{
+    font-size: 20px;
+    padding-right: 25px;
+    padding-right: 58px !important;
+}
+
+.textSection h3
+{
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+h2.fullTitle
+{
+    margin: 30px 0 !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* Carousel */
+section
+{
+    background: linear-gradient(gray, black);
+    color: white;
+}
+
+.testimonial
+{
+    margin: 7%;
+}
+
+.fa-star
+{
+    color: white;
+}
+
+.testimonialImg
+{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.carousel-control-prev
+{
+    margin-left: -12%;
+}
+
+.carousel-control-next
+{
+    margin-right: -12%;
+}
+/* 
+.cardscc
+{
+    margin-bottom: 25px;
+} */
+
+.cardscc
+{
+    color: black;
+}

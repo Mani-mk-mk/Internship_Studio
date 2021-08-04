@@ -1,0 +1,84 @@
+/*CART SECTION*/
+
+.productList h3 {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.orderImg img {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 12.5px;
+}
+
+.description {
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 12.5px;
+}
+
+.quantity {
+    padding-top: 12.5px;
+}
+
+.quantity input {
+    width: 60%;
+    outline: none;
+}
+
+hr {
+    color: white;
+}
+
+.productList {
+    border: 0.5px solid gainsboro;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 5% !important;
+    margin-bottom: 2%;
+    color: white;
+    background: linear-gradient(gray, black);
+}
+
+/*ORDER SUMMARY*/
+.orderSummary {
+    margin-top: 5% !important;
+    color: white;
+    margin-bottom: 26.4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 613.3px;
+    background: linear-gradient(gray, black);
+}
+
+.orderSummary h3 {
+    text-align: left;
+    padding-top: 10px;
+}
+
+p span {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.total h2 {
+    color: white;
+    margin-top: 10px !important;
+}
+
+
+/*GOTO TOP*/
+/* .backtop {
+    position: absolute;
+    right: 15px;
+    top: 950px;
+} */
+
+.checkout
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}

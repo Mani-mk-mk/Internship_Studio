@@ -1,0 +1,33 @@
+.confiramtion
+{
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+
+.success
+{
+    color: white;
+    margin: 15px 0;
+    margin-top: 25px;
+}
+
+.orderConfirmation
+{
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(gray, black);
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.orderConfirmation p
+{
+    margin-bottom: 18px;
+}
+
+.btn
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

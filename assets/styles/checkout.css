@@ -1,0 +1,36 @@
+
+.billing {
+    background: linear-gradient(gray, black);
+    color: white;
+    width: 850px !important;
+    margin-top: 2.5% !important;
+    border-radius: 15px;
+}
+
+.h {
+    padding-top: 10px;
+}
+
+label, button{
+    margin-top: 25px !important;
+}
+
+.orderSummary
+{
+    height: 300px;
+    margin-top: 2.5% !important;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.form-group
+{
+    padding-right: 0;
+}
+
+.anchor
+{
+    color: white;
+    text-decoration: none !important;
+    font-size: 18px;
+}
